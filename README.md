@@ -24,29 +24,21 @@ O **Projeto Fluxo** é um projeto de clusterização de clientes da empresa jún
 
 Abaixo está a organização dos diretórios e arquivos principais deste projeto:
 
-`
-root/
-│
-├── data/                  # Armazena os datasets
-│   ├── raw/               # Armazena os dados brutos não processados
-│   └── processed/         # Armazena os dados processados, prontos para uso
-│
-├── notebooks/             # Notebooks Jupyter utilizados para análise exploratória         
-│
-├── src/                   # Código-fonte do projeto
-│   ├── clustering/        # Algoritmos de clusterização
-│   ├── preprocessing/     # Scripts de pré-processamento dos dados
-│   ├── utils/             # Funções utilitárias
-│   └── main.py            # Arquivo principal para executar a pipeline de clusterização
-│
-├── models/                # Modelos treinados ou checkpoints
-│
-├── tests/                 # Scripts de testes para validar o código
-│   └── test_clustering.py # Exemplo de teste unitário
-│
-├── reports/               # Relatórios de resultados, gráficos, e insights
-│
-├── requirements.txt       # Arquivo com as dependências do projeto (pacotes Python)
-├── README.md              # Instruções e documentação do projeto
-├── .gitignore             # Arquivos e pastas a serem ignorados pelo Git
-`
+### Descrição dos Diretórios e Arquivos
+
+- **`data/`**: Armazena os dados do projeto. A subpasta `raw/` contém os dados brutos não processados, enquanto `processed/` contém os dados já processados e prontos para serem usados.
+  
+- **`notebooks/`**: Notebooks Jupyter utilizados para análise exploratória dos dados e experimentação com algoritmos de clusterização.
+
+- **`src/`**: Código-fonte principal do projeto. Inclui scripts de pré-processamento (`preprocessing/`), algoritmos de clusterização (`clustering/`), funções auxiliares (`utils/`) e o arquivo `main.py`, que executa o fluxo completo de clusterização.
+
+- **`reports/`**: Relatórios e visualizações gerados a partir dos resultados dos clusters.
+
+- **`requirements.txt`**: Lista de pacotes e bibliotecas Python necessárias para rodar o projeto.
+
+- **`README.md`**: Documentação do projeto, explicando sua estrutura, instalação e execução.
+
+- **`.gitignore`**: Lista de arquivos e diretórios que não devem ser versionados pelo Git.
+
+---
+
