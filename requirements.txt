@@ -1,0 +1,10 @@
+# Manipulação de dados
+pandas==2.1.1
+numpy==1.26.0
+
+# Visualização de dados
+matplotlib==3.8.0
+seaborn==0.12.2
+
+# Criação de dashboards interfaces
+streamlit==1.26.0 
